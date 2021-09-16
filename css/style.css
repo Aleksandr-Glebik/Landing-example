@@ -32,6 +32,29 @@ h3 {
   width: 1140px;
   margin: 0 auto;
 }
+.btn {
+    border: none;
+    text-decoration: none;
+    border-radius: 4rem;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #6852ED;
+}
+.btn-light {
+    height: 4rem;
+    padding: 1rem 3rem;
+    background-color: transparent;
+    color: #6852ED;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+.btn-dark {
+    height: 5rem;
+    padding: 1.3rem 3rem;
+    background-color: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%);;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
 .top-header {
   display: flex;
   justify-content: space-between;
@@ -59,6 +82,9 @@ h3 {
 .header-navbar {
   display: flex;
   align-items: center;
+}
+.header-actions {
+    align-self: center;
 }
 .header-navbar__logo {
   display: block;
@@ -115,3 +141,9 @@ h3 {
   color: #554d89;
   font-weight: bold;
 }
+.header-actions__text {
+    display: inline-block;
+    margin: 0 0.8rem;
+
+}
+
