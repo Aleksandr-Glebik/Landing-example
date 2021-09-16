@@ -23,6 +23,11 @@ h3 {
   color: #554d89;
   font-weight: bold;
 }
+.divider {
+    width: 1920px;
+    border: none;
+    border-bottom: 1px solid #E1E4ED;
+}
 .wrapper {
     width: 1140px;
     margin: 0 auto;
