@@ -210,4 +210,58 @@ h3 {
     font-size: 5rem;
     line-height: 5rem;
 }
+.services {
+    margin-top: 9.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.infoblock {
+    width: 36rem;
+    box-shadow: 0px 0px 20px #E1E4ED;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 3rem;
+}
+.infoblock:hover {
+    background: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%);
+    box-shadow: 0px 0px 20px rgba(104, 82, 237, 0.8);
+    border-radius: 10px;
+    color: #fff;
+}
+.infoblock .fas {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    color: #6852ED;
+    margin-bottom: 3rem;
+}
+.infoblock__title {
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    margin-bottom: 1.9rem;
+}
+.infoblock__text {
+    line-height: 2.8rem;
+    color: #716C80;
+}
+.infoblock__link {
+    display: none;
+    color: #fff;
+}
+.infoblock:hover .fas {
+    display: none;
+}
+.infoblock:hover .infoblock__title {
+    color: #fff;
+    margin: 3.4rem 0 2rem
+}
+.infoblock:hover .infoblock__text {
+    color: #fff;
+}
+.infoblock:hover .infoblock__link {
+    display: inline-block;
+    margin-top: 3rem;
+
+}
+
 
