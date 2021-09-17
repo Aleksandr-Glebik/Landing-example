@@ -11,6 +11,8 @@ body {
   background-color: #fff;
   font-family: "Nunito", sans-serif;
   color: #5b5766;
+  font-style: normal;
+  font-weight: normal;
   font-size: 1.8rem;
 }
 ul {
@@ -22,6 +24,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   color: #554d89;
   font-weight: bold;
+  font-style: normal;
 }
 .divider {
   width: 1920px;
@@ -38,6 +41,7 @@ h3 {
     border-radius: 4rem;
     font-family: "Poppins", sans-serif;
     border: 1px solid #6852ED;
+    cursor: pointer;
 }
 .btn-light {
     height: 4rem;
@@ -50,10 +54,26 @@ h3 {
 .btn-dark {
     height: 5rem;
     padding: 1.3rem 3rem;
-    background-color: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%);;
+    background: linear-gradient(26.57deg, #6852ED 16.67%, #BA43FC 100%);;
     color: #fff;
     font-size: 1.4rem;
     line-height: 2.4rem;
+}
+.link {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: #554D89;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+}
+.link:hover {
+    text-shadow: 0 0 1px #554D89;
+}
+.link-arrow::after {
+    content: '\f30b';
+    font-family: FontAwesome;
+    margin-left: 1.5rem;
 }
 .top-header {
   display: flex;
@@ -144,6 +164,50 @@ h3 {
 .header-actions__text {
     display: inline-block;
     margin: 0 0.8rem;
-
+}
+.hero {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.hero__content {
+    position: relative;
+    top: -14rem;
+    margin-right: 2.4rem;
+}
+.hero__content-title {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 3.2rem 0;
+}
+.hero__content-text {
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    margin-bottom: 4rem;
+}
+.hero img {
+    margin-right: -4.2rem;
+}
+.hero__content__action .btn-dark{
+    margin-right: 3rem;
+}
+.btn-down {
+    position: absolute;
+    bottom: 5rem;
+    left: 45%;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    background: #6852ED;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-down > i {
+    margin: auto;
+    font-size: 5rem;
+    line-height: 5rem;
 }
 
