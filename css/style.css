@@ -363,5 +363,51 @@ h3 {
     color: #716C80;
     margin: 0 0 6rem 0 ;
 }
+.skills {
+    margin-top: 14rem;
+    display: flex;
+    justify-content: start;
+}
+.skills__contant {
+    width: 55.4rem;
+    margin-right: 3.1rem;
+}
+.skills__contant-title {
+    font-size: 3.4rem;
+    line-height: 4.4rem;
+    margin: 0 0 3.2rem 0;
+}
+.skills__contant-text {
+    line-height: 2.7rem;
+    color: #716C80;
+    margin-bottom: 7.7rem;
+}
+.skills__bar-container {
+    width: 55.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+.skills__bar {
+    display: flex;
+    justify-content: space-between;
+}
+.skills__bar-text {
+    line-height: 27px;
+    margin: 0 0 -0.3rem 0;
+}
+
+.skills__bar-section {
+    margin-top: 3rem;
+    width: 55.5rem;
+    background-image: url(../img/bar-progress.png);
+    background-repeat: no-repeat;
+    background-position: 0 87%;
+    opacity: 0.9;
+}
+.skills__bar-section:first-child {
+    margin-top: 0;
+}
 
 
