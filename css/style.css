@@ -286,4 +286,12 @@ h3 {
     margin-right: 3rem;
 }
 
+.split-section_reverse {
+    margin-top: 12rem;
+    flex-direction: row-reverse;
+}
+.split-section-img_reverse {
+    margin-left: 7.2rem;
+    margin-right: -8.2rem;
+}
 
