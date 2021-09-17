@@ -330,4 +330,38 @@ h3 {
     text-align: center;
     margin: 0;
 }
+.section-all-services {
+    width: 114rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.services-vertical {
+    width: 80rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.section-all-services__content {
+    width: 34rem;
+}
+.services-vertical > .infoblock {
+    margin-bottom: 3rem;
+}
+.services-vertical > .infoblock:nth-child(even) {
+    margin: 3rem 0 0 3rem;
+}
+.section-all-services__content-title {
+    font-size: 3.4rem;
+    line-height: 4.6rem;
+    margin: 3rem 0;
+}
+.section-all-services__content-text {
+    line-height: 2.8rem;
+    color: #716C80;
+    margin: 0 0 6rem 0 ;
+}
+
 
