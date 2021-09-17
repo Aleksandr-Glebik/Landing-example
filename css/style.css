@@ -409,5 +409,26 @@ h3 {
 .skills__bar-section:first-child {
     margin-top: 0;
 }
+.call-section {
+    width: 192rem;
+    height: 17rem;
+    margin: 14rem auto 0;
+    background-image: url(../img/call-section-bg.png);
+}
+.call-section_contant {
+    width: 114rem;
+    height: inherit;
+    margin: 0 39rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.call-section_contant-text {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #554D89;
+    font-weight: 600;
+}
 
 
