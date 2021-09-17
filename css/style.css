@@ -430,5 +430,81 @@ h3 {
     color: #554D89;
     font-weight: 600;
 }
+.price-section {
+    margin-top: 14rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-section__content {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px #E1E4ED;
+    border-radius: 10px;
+    width: 36rem;
+    height: 61.6rem;
+    padding: 6rem 7.1rem 6rem 5.9rem;
+}
+.price-section__content__price {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+
+}
+.price-section__content__price-text-strong {
+    font-weight: bold;
+    color: #554D89;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.price-section__content__price-text-large {
+    font-weight: bold;
+    color: #554D89;
+    font-size: 5rem;
+    line-height: 6rem;
+    margin-bottom: 1rem;
+}
+.price-section__content__price-text-small {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: #5B5766;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 6rem;
+}
+.price-section__content__scroll {
+
+}
+.price-section__content__scroll-text {
+    width: 24rem;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #716C80;
+    margin: 1rem 0;
+}
+.price-section__content__scroll-text::before {
+    content: '\f00c';
+    font-family: FontAwesome;
+    margin-right: 1rem;
+}
+
+#cross:before {
+    content: '\f00d';
+    font-family: FontAwesome;
+    margin-right: 1rem;
+    color: rgb(193, 99, 99);
+    font-weight: lighter;
+}
+
+.price-section__content__scroll-text:last-child {
+    margin-bottom: 6rem;
+}
+
 
 
