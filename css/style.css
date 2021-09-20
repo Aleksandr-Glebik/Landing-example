@@ -492,7 +492,7 @@ h3 {
   margin-right: 1rem;
 }
 
-#cross:before {
+.cross:before {
   content: "\f00d";
   font-family: FontAwesome;
   margin-right: 1rem;
