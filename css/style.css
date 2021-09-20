@@ -530,3 +530,124 @@ h3 {
   line-height: 2.8rem;
   color: #716c80;
 }
+.footer {
+  background-image: url(../img/footer_background.png);
+  background-repeat: no-repeat;
+  width: 192rem;
+  margin: 12rem auto 0;
+}
+.footer-container {
+  width: 114rem;
+  padding-top: 10rem;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.contacts {
+  width: 36rem;
+  margin-right: 11rem;
+}
+.contacts__address > h2, p, a, i {
+  text-decoration: none;
+}
+.contacts__address-title {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+  color: #fff;
+
+}
+.contacts__address > i {
+  font-size: 4.2rem;
+  line-height: 4.2rem;
+  float: left;
+  margin-right: 2rem;
+  color: #fff;
+}
+.contacts__address-text-small {
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  margin: 1.6rem 0 0;
+  color: #fff;
+}
+.contacts__address-phone {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  display: inline-block;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+.contacts__address-location {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #fff;
+}
+.contacts__address-mail {
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #fff;
+}
+.other {
+  width: 67rem;
+  display: flex;
+  justify-content: space-between;
+}
+.other h2, a {
+  color: #554D89;
+}
+.other p {
+  color: #716C80;
+}
+.links {
+width: 29.9rem;
+height: 19.8rem;
+}
+.links__title {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-bottom: 3rem;
+}
+.links__nav {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 15rem 15rem;
+  grid-template-rows: 2.7rem 2.7rem 2.7rem;
+  grid-row-gap: 1rem;
+}
+.links__nav li {
+  margin: 0 1rem 1rem 0;
+}
+.subscribe {
+width: 29.9rem;
+}
+.subscribe__title {
+font-weight: 600;
+font-size: 2rem;
+line-height: 3rem;
+}
+.subscribe__input {
+  border: none;
+  padding: 1.2rem 3.5rem 1.1rem 2.4rem;
+  border: 1px solid #6852ED;
+  border-radius: 4rem;
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #6852ed;
+  cursor: pointer;
+  position: relative;
+}
+
+.subscribe__text {
+  width: 26.3rem;
+font-size: 1.8rem;
+line-height: 2.7rem;
+color: #716C80;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
